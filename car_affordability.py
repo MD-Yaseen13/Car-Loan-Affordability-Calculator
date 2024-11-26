@@ -49,7 +49,7 @@ def calculate_loan_details(car_price, down_payment_percentage, loan_term_years, 
     return emi, loan_amount, total_interest, amortization
 
 def main():
-    st.set_page_config(page_title="Car Loan Affordability Calculator", layout="wide")
+    st.set_page_config(page_title="Car Affordability Calculator", layout="wide")
     
     # Custom CSS for better number readability
     st.markdown("""
